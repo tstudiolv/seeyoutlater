@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-Bold.eot');
+  src: local('Monument Grotesk Bold'), local('MonumentGrotesk-Bold'),
+      /* url('/font/MonumentGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Bold.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Bold.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-Italic.eot');
+  src: local('Monument Grotesk Italic'), local('MonumentGrotesk-Italic'),
+      /* url('/font/MonumentGrotesk-Italic.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Italic.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Italic.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-Medium.eot');
+  src: local('Monument Grotesk Medium'), local('MonumentGrotesk-Medium'),
+      /* url('/font/MonumentGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Medium.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Medium.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk Semi-Mono';
+  src: url('/font/MonumentGrotesk-Semi-Mono.eot');
+  src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'),
+      /* url('/font/MonumentGrotesk-Semi-Mono.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Semi-Mono.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Semi-Mono.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Semi-Mono.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-Regular.eot');
+  src: local('Monument Grotesk Regular'), local('MonumentGrotesk-Regular'),
+      /* url('/font/MonumentGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Regular.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Regular.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk Mono';
+  src: url('/font/MonumentGrotesk-Mono.eot');
+  src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'),
+      /* url('/font/MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-Mono.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-Mono.woff') format('woff'), */
+      url('/font/MonumentGrotesk-Mono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-BoldItalic.eot');
+  src: local('Monument Grotesk Bold Italic'), local('MonumentGrotesk-BoldItalic'),
+      /* url('/font/MonumentGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-BoldItalic.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-BoldItalic.woff') format('woff'), */
+      url('/font/MonumentGrotesk-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Monument Grotesk';
+  src: url('/font/MonumentGrotesk-MediumItalic.eot');
+  src: local('Monument Grotesk Medium Italic'), local('MonumentGrotesk-MediumItalic'),
+      /* url('/font/MonumentGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('/font/MonumentGrotesk-MediumItalic.woff2') format('woff2'),
+      url('/font/MonumentGrotesk-MediumItalic.woff') format('woff'), */
+      url('/font/MonumentGrotesk-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* h1, h2, h3, h4, h5, h6, p, span, a, small {
+  transform: translateY(-2rem);
+} */
+
+h1, h2 {
+  line-height: 4rem;
+}
+
+h3, h4, h5, h6 {
+  line-height: 3rem;
+}
