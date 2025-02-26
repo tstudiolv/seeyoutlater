@@ -46,10 +46,10 @@ export default {
     }),
     extend: {
       backgroundImage: {
-        arch: 'url("/assets/vector_7.png")',
-        'arch-reverse': 'url("/assets/vector_8.png")',
-        fingers: 'url("/assets/bg_1.png")',
-        event: 'url("/assets/bg_1.png")',
+        arch: 'url("/assets/vector_7.svg")',
+        'arch-reverse': 'url("/assets/vector_8.svg")',
+        fingers: 'url("/assets/bg_1.svg")',
+        event: 'url("/assets/bg_1.svg")',
       },
       backgroundPosition: {
         arch: 'center top',
