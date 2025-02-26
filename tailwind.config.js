@@ -25,7 +25,7 @@ export default {
         'h5': { fontSize: "2rem" },
         'h6': { fontSize: "1.75rem" },
         'p': { 
-          fontSize: "1rem",
+          fontSize: "1.4rem",
           lineHeight: '1.4rem',
         },
         'small': { 
