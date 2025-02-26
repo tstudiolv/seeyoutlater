@@ -19,6 +19,7 @@
     "vite-plugin-static-copy": "^2.1.0"
   },
   "devDependencies": {
+    "fluid-tailwind": "^1.0.4",
     "vite-plugin-mkcert": "^1.17.6"
   }
 }
