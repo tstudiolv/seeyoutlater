@@ -1,9 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-const plugin = require('tailwindcss/plugin');
+import plugin from 'tailwindcss/plugin'
+import fluid, { extract, screens, fontSize } from 'fluid-tailwind'
 
-module.exports = {
+export default {
+  content: {
+    files: [
+      './index.html',
+      './src/**/*.{js,jsx,ts,tsx,vue,css}'
+    ],
+    extract,
+  },
   plugins: [
-    require("tailwindcss-fluid-type"),
+    // Apply fluid typography with default WCAG checks (set checkSC144 to false to disable)
+    fluid({ checkSC144: true }),
     plugin(function({ addBase }) {
       addBase({
         'html': { 
@@ -17,7 +25,7 @@ module.exports = {
         'h5': { fontSize: "2rem" },
         'h6': { fontSize: "1.75rem" },
         'p': { 
-          fontSize: "1rem" ,
+          fontSize: "1rem",
           lineHeight: '1.4rem',
         },
         'small': { 
@@ -30,17 +38,18 @@ module.exports = {
       })
     }),
   ],
-  content: [
-    './index.html',
-    './src/**/*.{js,jsx,ts,tsx,vue,css}',
-  ],
   theme: {
+    screens, // use fluid-tailwind rem-based screens
+    fontSize, // use fluid-tailwind's rem-based font sizes (includes line heights)
+    fluid: ({ theme }) => ({
+      defaultScreens: ['20rem', theme('screens.lg')]
+    }),
     extend: {
       backgroundImage: {
-        arch: 'url("/assets/vector_7.svg")',
-        'arch-reverse': 'url("/assets/vector_8.svg")',
-        fingers: 'url("/assets/bg_1.svg")',
-        event: 'url("/assets/bg_1.svg")',
+        arch: 'url("/assets/vector_7.png")',
+        'arch-reverse': 'url("/assets/vector_8.png")',
+        fingers: 'url("/assets/bg_1.png")',
+        event: 'url("/assets/bg_1.png")',
       },
       backgroundPosition: {
         arch: 'center top',
