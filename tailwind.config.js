@@ -15,7 +15,7 @@ export default {
     plugin(function({ addBase }) {
       addBase({
         'html': { 
-          fontSize: "16px", 
+          fontSize: "13px", 
           fontFamily: 'Helvetica, sans-serif',
         },
         'h1': { fontSize: "5rem" },
