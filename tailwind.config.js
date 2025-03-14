@@ -48,21 +48,15 @@ export default {
       backgroundImage: {
         arch: 'url("/assets/vector_7.svg")',
         'arch-reverse': 'url("/assets/vector_8.svg")',
-        fingers: 'url("/assets/bg_1.svg")',
-        event: 'url("/assets/bg_1.svg")',
       },
       backgroundPosition: {
         arch: 'center top',
         'arch-reverse': 'center bottom',
-        fingers: 'center',
-        event: 'center',
       },
-      backgroundSize: {
-        arch: 'cover',
-        'arch-reverse': 'cover',
-        fingers: 'cover',
-        event: 'cover',
-      },
+      // backgroundSize: {
+      //   arch: 'cover',
+      //   'arch-reverse': 'cover',
+      // },
       colors: {
         // Core colors from stylebook
         black: "#151515", // Dark
