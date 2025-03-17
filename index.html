@@ -35,14 +35,17 @@
   <background class="fixed lg:hidden w-dvw h-dvh overflow-hidden -z-20 place-items-center">
     <img src="./assets/vector_7.svg" class="w-dvw h-dvh object-cover">
   </background>
-  <section id="subscribe" class="p-2 sm:p-4 flex flex-col justify-between lg:justify-center min-h-[90dvh] h-auto w-full lg:bg-arch lg:bg-cover">
-    <top class="hidden lg:flex flex-col lg:flex-row flex-wrap justify-start align-top mb-5">
-      <img src="./assets/vector_5.svg" alt="See You Later - face" class="h-16 p-4 lg:p-0">
-    </top>
+  <section id="top" class="p-2 sm:p-4 flex flex-col justify-between lg:justify-start min-h-[81dvh] lg:min-h-[100svh] h-auto w-full lg:bg-arch lg:bg-fixed lg:bg-cover">
+    <a href="#subscribe" class="hidden lg:flex flex-col lg:flex-row flex-wrap justify-start align-top mb-5">
+      <img src="./assets/vector_5.svg" alt="See You Later - blink" class="h-16 p-4 lg:p-0">
+    </a>
+    <a href="#event" class="w-full h-full flex justify-center my-auto">
+      <img src="./assets/vector_9.svg" alt="See You Later - clock" class="h-60">
+    </a>
   </section>
 
-  <section id="event" class="p-2 !pb-0 sm:p-4 flex flex-col justify-between h-auto w-full lg:bg-arch lg:bg-fixed lg:bg-cover lg:bg-black !bg-center">    
-    <event class="h-full flex flex-col cursor-alias group mt-5">
+  <section id="event" class="px-2 !pb-0 sm:px-4 flex flex-col justify-between h-auto w-full lg:bg-arch lg:bg-fixed lg:bg-cover lg:!bg-bottom lg:bg-black !bg-center">    
+    <event class="h-full flex flex-col cursor-alias group">
       <a href="https://gateme.com/event/101403/" target="_blank" class="cursor-alias">
         <img src="./assets/event_1_opt.jpg"
           class="h-auto lg:h-full w-full lg:w-auto rounded ">
@@ -51,14 +54,13 @@
 
     <tickets class="sticky bottom-4 w-full" >
       <a href="https://gateme.com/event/101403/" target="_blank" 
-        class="mt-4 py-1 w-full text-lg rounded font-bold border inline-flex justify-center 
-        lg:w-1/3 lg:ml-2
+        class="mt-2 lg:mt-5 py-3 lg:py-1 w-full text-lg rounded font-bold border inline-flex justify-center lg:w-1/3 translate-x-[1px] lg:translate-x-0
         bg-black border-blonde select-none hover:border-black text-center">Get tickets here!</a>
     </tickets>
   </section>
 
   <section id="mission" class="p-2 sm:p-4 flex flex-col justify-between align-middle min-h-[100svh] lg:min-h-[100svh] h-auto w-full lg:bg-arch lg:bg-fixed lg:bg-cover lg:bg-black !bg-bottom">
-    <subscribe class="justify-center flex flex-col flex-grow lg:flex-grow-0 my-[22dvh]">
+    <subscribe id="subscribe" class="justify-center flex flex-col flex-grow lg:flex-grow-0 my-auto min-h-[60dvh] lg:mt-20 mt-60 lg:mb-16 mb-24">
       <h2 class="font-extrabold lg:mb-4">If you're reading this,<br class="hidden sm:block"> you're already late!</h2>
       <div id="mlb2-23104662" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-23104662">
         <div class="ml-form-align-center ">
@@ -124,13 +126,13 @@
     
     <mission class="mt-12 lg:mt-20 flex flex-col">
       <h3 class="font-bold mb-8">See You Later…</h3>
-      <p class="mb-12">A Riga-based event series and platform dedicated to electronic music, unique locations, and immersive experiences. We bring together artists, sound, and atmosphere to create unforgettable nights that leave a lasting impact.</p>
+      <p class="mb-20">A Riga-based event series and platform dedicated to electronic music, unique locations, and immersive experiences. We bring together artists, sound, and atmosphere to create unforgettable nights that leave a lasting impact.</p>
       <p class="font-bold mb-6">More Than Just a Lineup</p>
       <p class="mb-2">Our events are about the deep connection between music, space, and people.</p>
-      <p class="mb-12">From globally recognized headliners to rising local talent, we deliver top-tier production in venues that enhance every moment.</p>
+      <p class="mb-20">From globally recognized headliners to rising local talent, we deliver top-tier production in venues that enhance every moment.</p>
       <p class="font-bold mb-6">A Decade in the Scene</p>
       <p class="mb-2">For over ten years, we've been pushing boundaries, and this is just the beginning.</p>
-      <p class="mb-12">As the Baltic's leading studio and DJ shop, <a href="https://tstudio.lv" target="_blank" class="underline hover:no-underline">T Studio</a>, celebrates its 10th anniversary, we're marking the occasion with the launch of the "See You Later" event series, opening a new chapter in shaping sound, culture, and nightlife.</p>
+      <p class="mb-20">As the Baltic's leading studio and DJ shop, <a href="https://tstudio.lv" target="_blank" class="underline hover:no-underline">T Studio</a>, celebrates its 10th anniversary, we're marking the occasion with the launch of the "See You Later" event series, opening a new chapter in shaping sound, culture, and nightlife.</p>
       <p class="font-bold mb-6">Be Part of the Experience</p>
       <p class="mb-6">Join us at the next event and See You Later…</p>
     </mission>
